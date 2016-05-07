@@ -110,6 +110,7 @@ public class MapsActivity extends FragmentActivity {
                 .title("Pancake Cafe")
                 .snippet("Pancake Cafe"));
 
+
         mMap.setMyLocationEnabled(true);
 
 
