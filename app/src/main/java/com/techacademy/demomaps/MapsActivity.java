@@ -105,6 +105,11 @@ public class MapsActivity extends FragmentActivity {
     private void setUpMap() {
         Log.d("setUpMap","setUpMap");
         mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        LatLng Bangkok = new LatLng(13.767177, 100.442684);
+        mMap.addMarker(new MarkerOptions().position(Bangkok)
+                .title("Pancake Cafe")
+                .snippet("Pancake Cafe"));
+
         mMap.setMyLocationEnabled(true);
 
 
